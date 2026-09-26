@@ -49,4 +49,8 @@ compile_commands.json
 pretrained_models/*
 *_pb2_grpc.py
 *_pb2.py
-*.tar
+*.tar# Shell redirection artifacts
+=[0-9]*
+>[0-9]*
+*.tmp
+*.log
